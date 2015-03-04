@@ -9,7 +9,7 @@ class Player():
 print "What hero do you want to be?"
 print "1 for prince, 2 for knight, 3 for archer"
 print "prince is healthier, knight is stronger,"
-print "knight is mana-ier...whatever that means"
+print "archer is mana-ier...whatever that means"
 choice = int(input('player choice: '))
 if choice == 1:
 	player_1 = Player('Prince', 120, 10, 10)
